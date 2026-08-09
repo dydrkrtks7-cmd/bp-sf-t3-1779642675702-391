@@ -1,537 +1,535 @@
 <!DOCTYPE html>
 <html lang="ko-KR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>홈</title>
-    <meta name="description" content="마포 지역 서버 웜업 전문. PBN 빌더가 만드는 강력한 웜업. 약한 서버는 접는다. 규칙은 없다. 오직 결과만을 원한다면 지금 전화하라. 010-6279-0862">
-    <meta name="keywords" content="서버 웜업, PBN 빌더, 마포, 서버 성능, 웜업 서비스, brutalism">
-    <meta name="bpaas-design-system" content="brutalist-avantgarde">
-    <meta name="bpaas-design-theme" content="kr-neon-void">
-    <link rel="canonical" href="https://sf-t3-1779642675702-391.maphoshirts.xyz/">
-    <meta property="og:title" content="홈">
-    <meta property="og:description" content="마포 지역 서버 웜업 전문. PBN 빌더가 만드는 강력한 웜업. 약한 서버는 접는다. 규칙은 없다. 오직 결과만을 원한다면 지금 전화하라. 010-6279-0862">
-    <meta property="og:url" content="https://sf-t3-1779642675702-391.maphoshirts.xyz/">
-    <meta property="og:type" content="website">
-    <meta property="og:locale" content="ko_KR">
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="서버 웜업 | PBN 빌더">
-    <meta name="twitter:description" content="약한 서버는 필요 없다. 오직 강력한 웜업만이 살아남는다. 지금 전화하라.">
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "LocalBusiness",
-        "name": "PBN 빌더 서버 웜업",
-        "description": "마포 지역 서버 웜업 전문. PBN 빌더가 만드는 강력한 웜업 서비스.",
-        "telephone": "+82-10-6279-0862",
-        "address": {
-            "@type": "PostalAddress",
-            "addressLocality": "마포",
-            "addressCountry": "KR"
-        }
-    }
-    </script>
-    <style>
-        :root {
-            --primary: #000000;
-            --secondary: #ffffff;
-            --accent: #ff3b00;
-            --font: Impact, system-ui, sans-serif;
-            --gap: 48px;
-            --padding: 72px;
-            --section-gap: 120px;
-        }
-
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            font-family: var(--font);
-            color: var(--primary);
-            background: var(--secondary);
-            line-height: 1.2;
-            text-transform: uppercase;
-            overflow-x: hidden;
-        }
-
-        /* Brutalist base */
-        .container {
-            max-width: none;
-            padding: var(--padding);
-        }
-
-        section {
-            padding: var(--padding);
-            margin-bottom: var(--section-gap);
-        }
-
-        /* Typography */
-        h1 {
-            font-size: 4.5rem;
-            font-weight: 900;
-            letter-spacing: -0.02em;
-            line-height: 0.9;
-            text-transform: uppercase;
-            border: 4px solid var(--primary);
-            padding: 12px 24px;
-            display: inline-block;
-            transform: rotate(-2deg);
-            margin-left: -12px;
-        }
-
-        h2 {
-            font-size: 3rem;
-            font-weight: 700;
-            border-bottom: 4px solid var(--accent);
-            padding-bottom: 8px;
-            display: inline-block;
-            transform: skewX(-5deg);
-        }
-
-        p {
-            font-size: 1.2rem;
-            max-width: 60ch;
-            margin-bottom: 24px;
-        }
-
-        a {
-            color: var(--primary);
-            text-decoration: none;
-            border: 3px solid var(--primary);
-            padding: 8px 16px;
-            display: inline-block;
-            transition: all 0.1s ease;
-        }
-
-        a:hover {
-            background: var(--accent);
-            color: var(--secondary);
-            border-color: var(--accent);
-            transform: scale(0.98);
-        }
-
-        /* Header & Navigation */
-        header {
-            background: var(--primary);
-            color: var(--secondary);
-            padding: 24px var(--padding);
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            border-bottom: 4px solid var(--accent);
-            position: relative;
-            z-index: 100;
-        }
-
-        .logo {
-            font-size: 2rem;
-            font-weight: bold;
-            letter-spacing: 2px;
-            color: var(--secondary);
-            border: none;
-            padding: 0;
-        }
-
-        .logo:hover {
-            background: none;
-            color: var(--accent);
-            border: none;
-            transform: none;
-        }
-
-        nav {
-            display: flex;
-            gap: 24px;
-            align-items: center;
-        }
-
-        nav a {
-            color: var(--secondary);
-            border: 2px solid var(--secondary);
-            padding: 8px 16px;
-            font-size: 1.1rem;
-        }
-
-        nav a:hover {
-            background: var(--accent);
-            border-color: var(--accent);
-            color: var(--secondary);
-        }
-
-        /* Hamburger */
-        #nav-toggle {
-            display: none;
-        }
-
-        .hamburger {
-            display: none;
-            cursor: pointer;
-            color: var(--secondary);
-            font-size: 2rem;
-            border: 2px solid var(--secondary);
-            padding: 8px 12px;
-            line-height: 1;
-        }
-
-        .hamburger:hover {
-            background: var(--accent);
-            border-color: var(--accent);
-        }
-
-        /* Hero */
-        #hero {
-            background: var(--primary);
-            color: var(--secondary);
-            padding: var(--padding);
-            margin-bottom: var(--section-gap);
-            position: relative;
-            overflow: hidden;
-            border-bottom: 8px solid var(--accent);
-        }
-
-        #hero::before {
-            content: '⚡⚡⚡';
-            position: absolute;
-            top: -40px;
-            right: -40px;
-            font-size: 12rem;
-            opacity: 0.1;
-            transform: rotate(15deg);
-            pointer-events: none;
-        }
-
-        .hero-content {
-            position: relative;
-            z-index: 1;
-        }
-
-        .hero-content h1 {
-            border-color: var(--accent);
-            background: var(--secondary);
-            color: var(--primary);
-            margin-left: -24px;
-            margin-bottom: 24px;
-        }
-
-        .hero-content p {
-            font-size: 1.8rem;
-            border-left: 6px solid var(--accent);
-            padding-left: 24px;
-            margin-bottom: 48px;
-        }
-
-        .hero-cta {
-            background: var(--accent);
-            color: var(--secondary);
-            border: 4px solid var(--secondary);
-            font-size: 1.5rem;
-            padding: 16px 48px;
-            transform: rotate(-1deg);
-        }
-
-        .hero-cta:hover {
-            background: var(--secondary);
-            color: var(--primary);
-            border-color: var(--accent);
-            transform: rotate(1deg) scale(0.98);
-        }
-
-        /* About section */
-        #about {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: var(--gap);
-            align-items: start;
-        }
-
-        .about-block {
-            border: 4px solid var(--primary);
-            padding: 48px;
-            background: var(--secondary);
-            position: relative;
-        }
-
-        .about-block:nth-child(2) {
-            transform: translateY(48px) rotate(1deg);
-            background: var(--primary);
-            color: var(--secondary);
-            border-color: var(--accent);
-        }
-
-        .about-block h3 {
-            font-size: 2rem;
-            margin-bottom: 24px;
-            border-bottom: 3px solid var(--accent);
-            padding-bottom: 8px;
-        }
-
-        .about-block ul {
-            list-style: none;
-            margin-top: 24px;
-        }
-
-        .about-block ul li {
-            padding: 12px 0;
-            border-bottom: 1px solid currentColor;
-            display: flex;
-            align-items: center;
-            gap: 12px;
-        }
-
-        .about-block ul li::before {
-            content: '▶';
-            color: var(--accent);
-        }
-
-        /* UGC Reviews */
-        #reviews {
-            background: var(--primary);
-            color: var(--secondary);
-            border-top: 8px solid var(--accent);
-            border-bottom: 8px solid var(--accent);
-            padding: var(--padding);
-            margin-bottom: var(--section-gap);
-        }
-
-        #reviews h2 {
-            color: var(--secondary);
-            border-color: var(--accent);
-            margin-bottom: 48px;
-        }
-
-        .review-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-            gap: var(--gap);
-        }
-
-        .review-card {
-            background: var(--secondary);
-            color: var(--primary);
-            border: 4px solid var(--accent);
-            padding: 32px;
-            transform: rotate(-0.5deg);
-            transition: transform 0.15s;
-        }
-
-        .review-card:nth-child(even) {
-            transform: rotate(0.5deg) translateY(-12px);
-        }
-
-        .review-card:hover {
-            transform: rotate(0deg) scale(1.01);
-            border-color: var(--primary);
-        }
-
-        .review-meta {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin-bottom: 16px;
-            font-size: 0.9rem;
-            border-bottom: 2px solid var(--primary);
-            padding-bottom: 8px;
-        }
-
-        .review-author {
-            font-weight: bold;
-        }
-
-        .review-date {
-            opacity: 0.7;
-        }
-
-        .review-stars {
-            color: var(--accent);
-            font-size: 1.4rem;
-            letter-spacing: 4px;
-        }
-
-        .review-text {
-            font-size: 1rem;
-            line-height: 1.4;
-            text-transform: none;
-        }
-
-        /* CTA section */
-        #cta {
-            text-align: center;
-            background: var(--accent);
-            color: var(--secondary);
-            padding: var(--padding);
-            border: 8px solid var(--primary);
-            transform: skewX(-2deg);
-            margin-bottom: var(--section-gap);
-        }
-
-        #cta .cta-inner {
-            transform: skewX(2deg);
-        }
-
-        #cta h2 {
-            border-color: var(--secondary);
-            margin-bottom: 24px;
-        }
-
-        #cta a {
-            background: var(--primary);
-            color: var(--secondary);
-            border-color: var(--secondary);
-            font-size: 1.8rem;
-            padding: 16px 64px;
-            margin-top: 24px;
-            border-width: 4px;
-        }
-
-        #cta a:hover {
-            background: var(--secondary);
-            color: var(--primary);
-            border-color: var(--primary);
-        }
-
-        /* Footer */
-        footer {
-            background: var(--primary);
-            color: var(--secondary);
-            padding: var(--padding);
-            border-top: 4px solid var(--accent);
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            flex-wrap: wrap;
-            gap: 24px;
-        }
-
-        footer p {
-            margin: 0;
-            font-size: 1rem;
-        }
-
-        footer a {
-            border: none;
-            padding: 0;
-            color: var(--accent);
-        }
-
-        footer a:hover {
-            background: none;
-            color: var(--secondary);
-            border: none;
-            transform: none;
-        }
-
-        /* Responsive */
-        @media (max-width: 900px) {
-            :root {
-                --padding: 36px;
-                --gap: 24px;
-                --section-gap: 72px;
-            }
-
-            h1 {
-                font-size: 2.8rem;
-            }
-
-            h2 {
-                font-size: 2rem;
-            }
-
-            #about {
-                grid-template-columns: 1fr;
-            }
-
-            .about-block:nth-child(2) {
-                transform: none;
-            }
-
-            .hero-content p {
-                font-size: 1.2rem;
-            }
-
-            #cta {
-                transform: none;
-            }
-
-            #cta .cta-inner {
-                transform: none;
-            }
-        }
-
-        @media (max-width: 768px) {
-            header {
-                padding: 16px var(--padding);
-            }
-
-            .hamburger {
-                display: block;
-            }
-
-            nav {
-                display: none;
-                position: absolute;
-                top: 100%;
-                left: 0;
-                right: 0;
-                background: var(--primary);
-                flex-direction: column;
-                padding: 24px;
-                border-bottom: 4px solid var(--accent);
-                gap: 16px;
-            }
-
-            #nav-toggle:checked ~ nav {
-                display: flex;
-            }
-
-            nav a {
-                width: 100%;
-                text-align: center;
-            }
-
-            .review-grid {
-                grid-template-columns: 1fr;
-            }
-
-            footer {
-                flex-direction: column;
-                text-align: center;
-            }
-        }
-
-        @media (max-width: 480px) {
-            :root {
-                --padding: 24px;
-            }
-
-            h1 {
-                font-size: 2rem;
-                margin-left: 0;
-                transform: none;
-            }
-
-            .hero-cta {
-                font-size: 1.2rem;
-                padding: 12px 24px;
-            }
-        }
-    </style>
-  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>홈</title>
+ <meta name="description" content="마포 지역 서버 웜업 전문. PBN 빌더가 만드는 강력한 웜업. 약한 서버는 접는다. 규칙은 없다. 오직 결과만을 원한다면 지금 전화하라.">
+ <meta name="keywords" content="서버 웜업, PBN 빌더, 마포, 서버 성능, 웜업 서비스, brutalism">
+ <link rel="canonical" href="https://sf-t3-1779642675702-391.maphoshirts.xyz/">
+ <meta property="og:title" content="홈">
+ <meta property="og:description" content="마포 지역 서버 웜업 전문. PBN 빌더가 만드는 강력한 웜업. 약한 서버는 접는다. 규칙은 없다. 오직 결과만을 원한다면 지금 전화하라.">
+ <meta property="og:url" content="https://sf-t3-1779642675702-391.maphoshirts.xyz/">
+ <meta property="og:type" content="website">
+ <meta property="og:locale" content="ko_KR">
+ <meta name="twitter:card" content="summary">
+ <meta name="twitter:title" content="서버 웜업 | PBN 빌더">
+ <meta name="twitter:description" content="약한 서버는 필요 없다. 오직 강력한 웜업만이 살아남는다. 지금 전화하라.">
+ <script type="application/ld+json">
+ {
+ "@context": "https://schema.org",
+ "@type": "LocalBusiness",
+ "name": "PBN 빌더 서버 웜업",
+ "description": "마포 지역 서버 웜업 전문. PBN 빌더가 만드는 강력한 웜업 서비스.",
+ "telephone": "+82-10-6279-0862",
+ "address": {
+ "@type": "PostalAddress",
+ "addressLocality": "마포",
+ "addressCountry": "KR"
+ }
+ }
+ </script>
+ <style>
+ :root {
+ --primary: #000000;
+ --secondary: #ffffff;
+ --accent: #ff3b00;
+ --font: Impact, system-ui, sans-serif;
+ --gap: 48px;
+ --padding: 72px;
+ --section-gap: 120px;
+ }
+
+ * {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ }
+
+ body {
+ font-family: var(--font);
+ color: var(--primary);
+ background: var(--secondary);
+ line-height: 1.2;
+ text-transform: uppercase;
+ overflow-x: hidden;
+ }
+
+ /* Brutalist base */
+ .container {
+ max-width: none;
+ padding: var(--padding);
+ }
+
+ section {
+ padding: var(--padding);
+ margin-bottom: var(--section-gap);
+ }
+
+ /* Typography */
+ h1 {
+ font-size: 4.5rem;
+ font-weight: 900;
+ letter-spacing: -0.02em;
+ line-height: 0.9;
+ text-transform: uppercase;
+ border: 4px solid var(--primary);
+ padding: 12px 24px;
+ display: inline-block;
+ transform: rotate(-2deg);
+ margin-left: -12px;
+ }
+
+ h2 {
+ font-size: 3rem;
+ font-weight: 700;
+ border-bottom: 4px solid var(--accent);
+ padding-bottom: 8px;
+ display: inline-block;
+ transform: skewX(-5deg);
+ }
+
+ p {
+ font-size: 1.2rem;
+ max-width: 60ch;
+ margin-bottom: 24px;
+ }
+
+ a {
+ color: var(--primary);
+ text-decoration: none;
+ border: 3px solid var(--primary);
+ padding: 8px 16px;
+ display: inline-block;
+ transition: all 0.1s ease;
+ }
+
+ a:hover {
+ background: var(--accent);
+ color: var(--secondary);
+ border-color: var(--accent);
+ transform: scale(0.98);
+ }
+
+ /* Header & Navigation */
+ header {
+ background: var(--primary);
+ color: var(--secondary);
+ padding: 24px var(--padding);
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ border-bottom: 4px solid var(--accent);
+ position: relative;
+ z-index: 100;
+ }
+
+ .logo {
+ font-size: 2rem;
+ font-weight: bold;
+ letter-spacing: 2px;
+ color: var(--secondary);
+ border: none;
+ padding: 0;
+ }
+
+ .logo:hover {
+ background: none;
+ color: var(--accent);
+ border: none;
+ transform: none;
+ }
+
+ nav {
+ display: flex;
+ gap: 24px;
+ align-items: center;
+ }
+
+ nav a {
+ color: var(--secondary);
+ border: 2px solid var(--secondary);
+ padding: 8px 16px;
+ font-size: 1.1rem;
+ }
+
+ nav a:hover {
+ background: var(--accent);
+ border-color: var(--accent);
+ color: var(--secondary);
+ }
+
+ /* Hamburger */
+ #nav-toggle {
+ display: none;
+ }
+
+ .hamburger {
+ display: none;
+ cursor: pointer;
+ color: var(--secondary);
+ font-size: 2rem;
+ border: 2px solid var(--secondary);
+ padding: 8px 12px;
+ line-height: 1;
+ }
+
+ .hamburger:hover {
+ background: var(--accent);
+ border-color: var(--accent);
+ }
+
+ /* Hero */
+ #hero {
+ background: var(--primary);
+ color: var(--secondary);
+ padding: var(--padding);
+ margin-bottom: var(--section-gap);
+ position: relative;
+ overflow: hidden;
+ border-bottom: 8px solid var(--accent);
+ }
+
+ #hero::before {
+ content: '⚡⚡⚡';
+ position: absolute;
+ top: -40px;
+ right: -40px;
+ font-size: 12rem;
+ opacity: 0.1;
+ transform: rotate(15deg);
+ pointer-events: none;
+ }
+
+ .hero-content {
+ position: relative;
+ z-index: 1;
+ }
+
+ .hero-content h1 {
+ border-color: var(--accent);
+ background: var(--secondary);
+ color: var(--primary);
+ margin-left: -24px;
+ margin-bottom: 24px;
+ }
+
+ .hero-content p {
+ font-size: 1.8rem;
+ border-left: 6px solid var(--accent);
+ padding-left: 24px;
+ margin-bottom: 48px;
+ }
+
+ .hero-cta {
+ background: var(--accent);
+ color: var(--secondary);
+ border: 4px solid var(--secondary);
+ font-size: 1.5rem;
+ padding: 16px 48px;
+ transform: rotate(-1deg);
+ }
+
+ .hero-cta:hover {
+ background: var(--secondary);
+ color: var(--primary);
+ border-color: var(--accent);
+ transform: rotate(1deg) scale(0.98);
+ }
+
+ /* About section */
+ #about {
+ display: grid;
+ grid-template-columns: 1fr 1fr;
+ gap: var(--gap);
+ align-items: start;
+ }
+
+ .about-block {
+ border: 4px solid var(--primary);
+ padding: 48px;
+ background: var(--secondary);
+ position: relative;
+ }
+
+ .about-block:nth-child(2) {
+ transform: translateY(48px) rotate(1deg);
+ background: var(--primary);
+ color: var(--secondary);
+ border-color: var(--accent);
+ }
+
+ .about-block h3 {
+ font-size: 2rem;
+ margin-bottom: 24px;
+ border-bottom: 3px solid var(--accent);
+ padding-bottom: 8px;
+ }
+
+ .about-block ul {
+ list-style: none;
+ margin-top: 24px;
+ }
+
+ .about-block ul li {
+ padding: 12px 0;
+ border-bottom: 1px solid currentColor;
+ display: flex;
+ align-items: center;
+ gap: 12px;
+ }
+
+ .about-block ul li::before {
+ content: '▶';
+ color: var(--accent);
+ }
+
+ /* UGC Reviews */
+ #reviews {
+ background: var(--primary);
+ color: var(--secondary);
+ border-top: 8px solid var(--accent);
+ border-bottom: 8px solid var(--accent);
+ padding: var(--padding);
+ margin-bottom: var(--section-gap);
+ }
+
+ #reviews h2 {
+ color: var(--secondary);
+ border-color: var(--accent);
+ margin-bottom: 48px;
+ }
+
+ .review-grid {
+ display: grid;
+ grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+ gap: var(--gap);
+ }
+
+ .review-card {
+ background: var(--secondary);
+ color: var(--primary);
+ border: 4px solid var(--accent);
+ padding: 32px;
+ transform: rotate(-0.5deg);
+ transition: transform 0.15s;
+ }
+
+ .review-card:nth-child(even) {
+ transform: rotate(0.5deg) translateY(-12px);
+ }
+
+ .review-card:hover {
+ transform: rotate(0deg) scale(1.01);
+ border-color: var(--primary);
+ }
+
+ .review-meta {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ margin-bottom: 16px;
+ font-size: 0.9rem;
+ border-bottom: 2px solid var(--primary);
+ padding-bottom: 8px;
+ }
+
+ .review-author {
+ font-weight: bold;
+ }
+
+ .review-date {
+ opacity: 0.7;
+ }
+
+ .review-stars {
+ color: var(--accent);
+ font-size: 1.4rem;
+ letter-spacing: 4px;
+ }
+
+ .review-text {
+ font-size: 1rem;
+ line-height: 1.4;
+ text-transform: none;
+ }
+
+ /* CTA section */
+ #cta {
+ text-align: center;
+ background: var(--accent);
+ color: var(--secondary);
+ padding: var(--padding);
+ border: 8px solid var(--primary);
+ transform: skewX(-2deg);
+ margin-bottom: var(--section-gap);
+ }
+
+ #cta .cta-inner {
+ transform: skewX(2deg);
+ }
+
+ #cta h2 {
+ border-color: var(--secondary);
+ margin-bottom: 24px;
+ }
+
+ #cta a {
+ background: var(--primary);
+ color: var(--secondary);
+ border-color: var(--secondary);
+ font-size: 1.8rem;
+ padding: 16px 64px;
+ margin-top: 24px;
+ border-width: 4px;
+ }
+
+ #cta a:hover {
+ background: var(--secondary);
+ color: var(--primary);
+ border-color: var(--primary);
+ }
+
+ /* Footer */
+ footer {
+ background: var(--primary);
+ color: var(--secondary);
+ padding: var(--padding);
+ border-top: 4px solid var(--accent);
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ flex-wrap: wrap;
+ gap: 24px;
+ }
+
+ footer p {
+ margin: 0;
+ font-size: 1rem;
+ }
+
+ footer a {
+ border: none;
+ padding: 0;
+ color: var(--accent);
+ }
+
+ footer a:hover {
+ background: none;
+ color: var(--secondary);
+ border: none;
+ transform: none;
+ }
+
+ /* Responsive */
+ @media (max-width: 900px) {
+ :root {
+ --padding: 36px;
+ --gap: 24px;
+ --section-gap: 72px;
+ }
+
+ h1 {
+ font-size: 2.8rem;
+ }
+
+ h2 {
+ font-size: 2rem;
+ }
+
+ #about {
+ grid-template-columns: 1fr;
+ }
+
+ .about-block:nth-child(2) {
+ transform: none;
+ }
+
+ .hero-content p {
+ font-size: 1.2rem;
+ }
+
+ #cta {
+ transform: none;
+ }
+
+ #cta .cta-inner {
+ transform: none;
+ }
+ }
+
+ @media (max-width: 768px) {
+ header {
+ padding: 16px var(--padding);
+ }
+
+ .hamburger {
+ display: block;
+ }
+
+ nav {
+ display: none;
+ position: absolute;
+ top: 100%;
+ left: 0;
+ right: 0;
+ background: var(--primary);
+ flex-direction: column;
+ padding: 24px;
+ border-bottom: 4px solid var(--accent);
+ gap: 16px;
+ }
+
+ #nav-toggle:checked ~ nav {
+ display: flex;
+ }
+
+ nav a {
+ width: 100%;
+ text-align: center;
+ }
+
+ .review-grid {
+ grid-template-columns: 1fr;
+ }
+
+ footer {
+ flex-direction: column;
+ text-align: center;
+ }
+ }
+
+ @media (max-width: 480px) {
+ :root {
+ --padding: 24px;
+ }
+
+ h1 {
+ font-size: 2rem;
+ margin-left: 0;
+ transform: none;
+ }
+
+ .hero-cta {
+ font-size: 1.2rem;
+ padding: 12px 24px;
+ }
+ }
+ </style>
+ <link rel="icon" type="image/svg+xml" href="favicon.svg">
 </head>
 <body>
-    <header>
-        <a href="/" class="logo">PBN 빌더</a>
-        <input type="checkbox" id="nav-toggle">
-        <label for="nav-toggle" class="hamburger">☰</label>
-        <nav>
-            <a href="#hero">홈</a>
-            <a href="#about">웜업</a>
-            <a href="#reviews">후기</a>
-            <a href="#cta">문의</a>
-        </nav>
-    </header>
+ <header>
+ <a href="/" class="logo">PBN 빌더</a>
+ <input type="checkbox" id="nav-toggle">
+ <label for="nav-toggle" class="hamburger">☰</label>
+ <nav>
+ <a href="#hero">홈</a>
+ <a href="#about">웜업</a>
+ <a href="#reviews">후기</a>
+ <a href="#cta">문의</a>
+ </nav>
+ </header>
 
 <main class="container">
 <section class="hero-content">
@@ -586,7 +584,7 @@
 </section>
 <section class="cta-inner">
 <h2>문의</h2>
-<p>전화 문의: <a href="tel:010-6279-0862">010-6279-0862</a></p>
+<p>전화 문의: </p>
 </section>
 </main>
 

@@ -1,210 +1,208 @@
 <!DOCTYPE html>
 <html lang="ko-KR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>정보 | PBN 빌더 - 마포 서버 웜업</title>
-    <meta name="description" content="마포 지역 서버 웜업 전문. PBN 빌더가 만드는 강력한 웜업. 약한 서버는 접는다. 규칙은 없다. 오직 결과만을 원한다면 지금 전화하라. 010-6279-0862">
-    <meta name="keywords" content="서버 웜업, PBN 빌더, 마포, 서버 성능, 웜업 서비스, brutalism, 정보">
-    <meta name="bpaas-design-system" content="brutalist-avantgarde">
-    <meta name="bpaas-design-theme" content="kr-neon-void">
-    <link rel="canonical" href="https://sf-t3-1779642675702-391.maphoshirts.xyz/about.html">
-    <meta property="og:title" content="정보 | PBN 빌더 - 마포 서버 웜업">
-    <meta property="og:description" content="마포 지역 서버 웜업 전문. PBN 빌더가 만드는 강력한 웜업. 약한 서버는 접는다. 규칙은 없다. 오직 결과만을 원한다면 지금 전화하라. 010-6279-0862">
-    <meta property="og:url" content="https://sf-t3-1779642675702-391.maphoshirts.xyz/about.html">
-    <meta name="robots" content="index, follow">
-    <style>
-        :root {
-            --bg: #0a0a0a;
-            --fg: #e0e0e0;
-            --accent: #ff0040;
-            --accent2: #00ffe0;
-            --font-main: 'Courier New', Courier, monospace;
-            --font-head: 'Impact', 'Arial Black', sans-serif;
-            --border-thick: 4px solid var(--accent);
-            --space-unit: 1.2rem;
-        }
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        body {
-            background: var(--bg);
-            color: var(--fg);
-            font-family: var(--font-main);
-            font-size: 1rem;
-            line-height: 1.5;
-            display: flex;
-            flex-direction: column;
-            min-height: 100vh;
-        }
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 0 1rem;
-            width: 100%;
-        }
-        section {
-            padding: var(--space-unit) 0;
-            border-bottom: 2px solid #222;
-        }
-        h1, h2, h3 {
-            font-family: var(--font-head);
-            text-transform: uppercase;
-            letter-spacing: 2px;
-            color: var(--accent);
-        }
-        h1 { font-size: 2.8rem; line-height: 1; margin-bottom: 1rem; }
-        h2 { font-size: 2rem; margin: 1.5rem 0 1rem; border-left: var(--border-thick); padding-left: 0.5rem; }
-        h3 { font-size: 1.4rem; margin: 1rem 0; }
-        p { margin-bottom: 1rem; }
-        a {
-            color: var(--accent2);
-            text-decoration: underline;
-            text-underline-offset: 4px;
-        }
-        a:hover {
-            color: var(--accent);
-            background: var(--fg);
-            color: var(--bg);
-        }
-        /* 헤더 & 네비게이션 */
-        header {
-            background: #111;
-            border-bottom: var(--border-thick);
-            padding: 1rem 0;
-            position: sticky;
-            top: 0;
-            z-index: 100;
-        }
-        header .container {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            flex-wrap: wrap;
-        }
-        .logo {
-            font-family: var(--font-head);
-            font-size: 1.8rem;
-            color: var(--accent);
-            text-transform: uppercase;
-            text-decoration: none;
-            letter-spacing: 4px;
-        }
-        .logo:hover {
-            background: transparent;
-            color: var(--accent2);
-        }
-        nav {
-            display: flex;
-            gap: 1.5rem;
-            align-items: center;
-        }
-        nav a {
-            color: var(--fg);
-            text-decoration: none;
-            font-weight: bold;
-            text-transform: uppercase;
-            font-size: 0.9rem;
-            padding: 0.3rem 0.5rem;
-            border: 2px solid transparent;
-        }
-        nav a:hover {
-            border-color: var(--accent);
-            background: transparent;
-            color: var(--accent);
-        }
-        /* 햄버거 메뉴 */
-        .hamburger {
-            display: none;
-            flex-direction: column;
-            gap: 5px;
-            cursor: pointer;
-            padding: 5px;
-        }
-        .hamburger span {
-            display: block;
-            width: 28px;
-            height: 3px;
-            background: var(--fg);
-            transition: all 0.3s;
-        }
-        .hamburger.active span:nth-child(1) { transform: rotate(45deg) translate(6px, 6px); }
-        .hamburger.active span:nth-child(2) { opacity: 0; }
-        .hamburger.active span:nth-child(3) { transform: rotate(-45deg) translate(6px, -6px); }
-        /* 전화 링크 */
-        .tel-link {
-            display: inline-block;
-            background: var(--accent);
-            color: var(--bg);
-            font-family: var(--font-head);
-            font-size: 1.4rem;
-            padding: 0.5rem 1.2rem;
-            text-decoration: none;
-            border: 2px solid var(--accent);
-            transition: 0.2s;
-            margin-top: 1rem;
-        }
-        .tel-link:hover {
-            background: var(--bg);
-            color: var(--accent);
-            border-color: var(--accent);
-        }
-        /* 카드/블록 */
-        .card {
-            background: #111;
-            border: 2px solid #333;
-            padding: 1.5rem;
-            margin: 1rem 0;
-        }
-        .card p:last-child { margin-bottom: 0; }
-        /* 푸터 */
-        footer {
-            margin-top: auto;
-            background: #0a0a0a;
-            border-top: 2px solid #222;
-            padding: 1.5rem 0;
-            text-align: center;
-        }
-        /* 반응형 768px */
-        @media (max-width: 768px) {
-            .hamburger { display: flex; }
-            nav {
-                display: none;
-                flex-direction: column;
-                width: 100%;
-                padding: 1rem 0;
-                gap: 0.8rem;
-                background: #111;
-                border-top: 2px solid #333;
-            }
-            nav.active { display: flex; }
-            nav a { font-size: 1.1rem; }
-            h1 { font-size: 2rem; }
-            h2 { font-size: 1.6rem; }
-        }
-    </style>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>정보 | PBN 빌더 - 마포 서버 웜업</title>
+ <meta name="description" content="마포 지역 서버 웜업 전문. PBN 빌더가 만드는 강력한 웜업. 약한 서버는 접는다. 규칙은 없다. 오직 결과만을 원한다면 지금 전화하라.">
+ <meta name="keywords" content="서버 웜업, PBN 빌더, 마포, 서버 성능, 웜업 서비스, brutalism, 정보">
+ <link rel="canonical" href="https://sf-t3-1779642675702-391.maphoshirts.xyz/about.html">
+ <meta property="og:title" content="정보 | PBN 빌더 - 마포 서버 웜업">
+ <meta property="og:description" content="마포 지역 서버 웜업 전문. PBN 빌더가 만드는 강력한 웜업. 약한 서버는 접는다. 규칙은 없다. 오직 결과만을 원한다면 지금 전화하라.">
+ <meta property="og:url" content="https://sf-t3-1779642675702-391.maphoshirts.xyz/about.html">
+ <meta name="robots" content="index, follow">
+ <style>
+ :root {
+ --bg: #0a0a0a;
+ --fg: #e0e0e0;
+ --accent: #ff0040;
+ --accent2: #00ffe0;
+ --font-main: 'Courier New', Courier, monospace;
+ --font-head: 'Impact', 'Arial Black', sans-serif;
+ --border-thick: 4px solid var(--accent);
+ --space-unit: 1.2rem;
+ }
+ * {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ }
+ body {
+ background: var(--bg);
+ color: var(--fg);
+ font-family: var(--font-main);
+ font-size: 1rem;
+ line-height: 1.5;
+ display: flex;
+ flex-direction: column;
+ min-height: 100vh;
+ }
+ .container {
+ max-width: 1200px;
+ margin: 0 auto;
+ padding: 0 1rem;
+ width: 100%;
+ }
+ section {
+ padding: var(--space-unit) 0;
+ border-bottom: 2px solid #222;
+ }
+ h1, h2, h3 {
+ font-family: var(--font-head);
+ text-transform: uppercase;
+ letter-spacing: 2px;
+ color: var(--accent);
+ }
+ h1 { font-size: 2.8rem; line-height: 1; margin-bottom: 1rem; }
+ h2 { font-size: 2rem; margin: 1.5rem 0 1rem; border-left: var(--border-thick); padding-left: 0.5rem; }
+ h3 { font-size: 1.4rem; margin: 1rem 0; }
+ p { margin-bottom: 1rem; }
+ a {
+ color: var(--accent2);
+ text-decoration: underline;
+ text-underline-offset: 4px;
+ }
+ a:hover {
+ color: var(--accent);
+ background: var(--fg);
+ color: var(--bg);
+ }
+ /* 헤더 & 네비게이션 */
+ header {
+ background: #111;
+ border-bottom: var(--border-thick);
+ padding: 1rem 0;
+ position: sticky;
+ top: 0;
+ z-index: 100;
+ }
+ header .container {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ flex-wrap: wrap;
+ }
+ .logo {
+ font-family: var(--font-head);
+ font-size: 1.8rem;
+ color: var(--accent);
+ text-transform: uppercase;
+ text-decoration: none;
+ letter-spacing: 4px;
+ }
+ .logo:hover {
+ background: transparent;
+ color: var(--accent2);
+ }
+ nav {
+ display: flex;
+ gap: 1.5rem;
+ align-items: center;
+ }
+ nav a {
+ color: var(--fg);
+ text-decoration: none;
+ font-weight: bold;
+ text-transform: uppercase;
+ font-size: 0.9rem;
+ padding: 0.3rem 0.5rem;
+ border: 2px solid transparent;
+ }
+ nav a:hover {
+ border-color: var(--accent);
+ background: transparent;
+ color: var(--accent);
+ }
+ /* 햄버거 메뉴 */
+ .hamburger {
+ display: none;
+ flex-direction: column;
+ gap: 5px;
+ cursor: pointer;
+ padding: 5px;
+ }
+ .hamburger span {
+ display: block;
+ width: 28px;
+ height: 3px;
+ background: var(--fg);
+ transition: all 0.3s;
+ }
+ .hamburger.active span:nth-child(1) { transform: rotate(45deg) translate(6px, 6px); }
+ .hamburger.active span:nth-child(2) { opacity: 0; }
+ .hamburger.active span:nth-child(3) { transform: rotate(-45deg) translate(6px, -6px); }
+ /* 전화 링크 */
+ .tel-link {
+ display: inline-block;
+ background: var(--accent);
+ color: var(--bg);
+ font-family: var(--font-head);
+ font-size: 1.4rem;
+ padding: 0.5rem 1.2rem;
+ text-decoration: none;
+ border: 2px solid var(--accent);
+ transition: 0.2s;
+ margin-top: 1rem;
+ }
+ .tel-link:hover {
+ background: var(--bg);
+ color: var(--accent);
+ border-color: var(--accent);
+ }
+ /* 카드/블록 */
+ .card {
+ background: #111;
+ border: 2px solid #333;
+ padding: 1.5rem;
+ margin: 1rem 0;
+ }
+ .card p:last-child { margin-bottom: 0; }
+ /* 푸터 */
+ footer {
+ margin-top: auto;
+ background: #0a0a0a;
+ border-top: 2px solid #222;
+ padding: 1.5rem 0;
+ text-align: center;
+ }
+ /* 반응형 768px */
+ @media (max-width: 768px) {
+ .hamburger { display: flex; }
+ nav {
+ display: none;
+ flex-direction: column;
+ width: 100%;
+ padding: 1rem 0;
+ gap: 0.8rem;
+ background: #111;
+ border-top: 2px solid #333;
+ }
+ nav.active { display: flex; }
+ nav a { font-size: 1.1rem; }
+ h1 { font-size: 2rem; }
+ h2 { font-size: 1.6rem; }
+ }
+ </style>
   <meta property="og:type" content="website">
   <meta name="twitter:card" content="summary">
 </head>
 <body>
-    <header>
-        <div class="container">
-            <a href="/" class="logo">PBN 빌더</a>
-            <div class="hamburger" id="hamburger" aria-label="메뉴 열기">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-            <nav id="nav">
-                <a href="/">홈</a>
-                <a href="/info" style="border-color: var(--accent); color: var(--accent);">정보</a>
-                <a href="/service">서비스</a>
-                <a href="tel:01062790862">010-6279-0862</a>
-            </nav>
-        </div>
-    </header>
+ <header>
+ <div class="container">
+ <a href="/" class="logo">PBN 빌더</a>
+ <div class="hamburger" id="hamburger" aria-label="메뉴 열기">
+ 
+ 
+ 
+ </div>
+ <nav id="nav">
+ <a href="/">홈</a>
+ <a href="/info" style="border-color: var(--accent); color: var(--accent);">정보</a>
+ <a href="/service">서비스</a>
+ 
+ </nav>
+ </div>
+ </header>
 
 <main>
 <div class="container">
@@ -248,7 +246,7 @@
 <p><strong>Q. 구축 기간은 얼마나 걸리나요.</strong> 사이트 수와 구성 방식에 따라 달라지므로 상담을 통해 확인하는 것이 일반적입니다.</p>
 <p><strong>Q. 웜업 기간에도 이용이 가능한가요.</strong> 단계적으로 트래픽을 늘려가는 절차이므로 일정 기간은 제한적으로 운영될 수 있습니다.</p>
 
-<p>문의: <a class="tel-link" href="tel:01062790862">01062790862</a></p>
+<p>문의: </p>
 </div>
 </main>
 
